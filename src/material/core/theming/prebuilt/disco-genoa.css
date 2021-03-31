@@ -9,8 +9,8 @@
 @include core.core();
 
 // Define a theme.
-$primary: theming.palette(palette.$deep-purple);
-$accent:  theming.palette(palette.$amber, A200, A100, A400);
+$primary: theming.palette(palette.$disco);
+$accent:  theming.palette(palette.$genoa);
 
 $theme: theming.light-theme((
   color: (
